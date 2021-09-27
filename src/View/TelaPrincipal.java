@@ -51,6 +51,7 @@ public class TelaPrincipal extends Application implements EventHandler<ActionEve
         stage.show();
 
     }
+
     public static void main(String[] args) {
         Application.launch(TelaPrincipal.class, args);
     }
@@ -66,14 +67,14 @@ public class TelaPrincipal extends Application implements EventHandler<ActionEve
 //            }
 //        }
 //    }
-}
+    }
 
     public void executarAcao(String acao) {
 
-        if (acao.equals("Sair")){
+        if (acao.equals("Sair")) {
 
             Platform.exit();
-        }else if(acao.equals("Configuracoes")){
+        } else if (acao.equals("Configuracoes")) {
             System.out.println("aqui");
         }
 
